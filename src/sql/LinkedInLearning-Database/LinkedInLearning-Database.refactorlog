@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="eb0afea8-24b4-4f76-b893-fefa542f4f82" ChangeDateTime="05/14/2020 17:50:24">
+    <Property Name="ElementName" Value="[LinkedInLearning].[GamesInSteam].[Storeid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[LinkedInLearning].[GamesInSteam]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StoreId" />
+  </Operation>
+</Operations>

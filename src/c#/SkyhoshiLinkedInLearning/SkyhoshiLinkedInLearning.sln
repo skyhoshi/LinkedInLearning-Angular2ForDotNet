@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyhoshiLinkedInLearning-Functions", "SkyhoshiLinkedInLearning-Functions.csproj", "{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LinkedInLearning-Database", "..\..\sql\LinkedInLearning-Database\LinkedInLearning-Database.sqlproj", "{1A4F0CE2-E309-4653-B1CE-0327BA319919}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDataMassager", "..\TestDataMassager\TestDataMassager.csproj", "{351C0183-15F3-4968-8A3F-0CF2FEB07CB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyhoshiLinkedInLibrary", "..\SkyhoshiLinkedInLibrary\SkyhoshiLinkedInLibrary.csproj", "{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User Secrets", "User Secrets", "{3EB1A163-E4B2-47CB-B2DD-434619986BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestDataMassager-ce34982d-6762-4ad1-8a9d-711014ac59db", "TestDataMassager-ce34982d-6762-4ad1-8a9d-711014ac59db", "{EBE72FE1-11D5-4BDC-8D52-D17F16E7C687}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\ce34982d-6762-4ad1-8a9d-711014ac59db\secrets.json = ..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\ce34982d-6762-4ad1-8a9d-711014ac59db\secrets.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkyhoshiLinkedInLibrary-b3a8fb5a-3e5c-4ead-96d7-8b923e474f79", "SkyhoshiLinkedInLibrary-b3a8fb5a-3e5c-4ead-96d7-8b923e474f79", "{52A2E486-1D74-4484-82E9-E17EE27E19A0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\b3a8fb5a-3e5c-4ead-96d7-8b923e474f79\secrets.json = ..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\b3a8fb5a-3e5c-4ead-96d7-8b923e474f79\secrets.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyhoshiLinkedInLearningTests", "..\TestProjects\SkyhoshiLinkedInLearningTests\SkyhoshiLinkedInLearningTests.csproj", "{1F7C80EF-E506-494F-8811-4A8B57C8B301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{739E907E-A48E-46DD-AD46-E4D85E283BFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{20838E52-1DB7-4ECF-8A8B-163729182E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CACC209B-B4F2-406E-8E52-934DA832A6A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkyhoshiLearningTests-3c76f072-8162-4df6-aeeb-3e0ac849188a", "SkyhoshiLearningTests-3c76f072-8162-4df6-aeeb-3e0ac849188a", "{51F8F924-576A-44C9-87CA-8917D4B8B156}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\3c76f072-8162-4df6-aeeb-3e0ac849188a\secrets.json = ..\..\..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\3c76f072-8162-4df6-aeeb-3e0ac849188a\secrets.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1C29A21E-22F2-4AFB-9FDE-8DEA9DAC51EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyhoshiAngularWebsite", "..\SkyhoshiAngularWebsite\SkyhoshiAngularWebsite.csproj", "{4320BC00-E493-428F-9113-BE1740AFF966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{351C0183-15F3-4968-8A3F-0CF2FEB07CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351C0183-15F3-4968-8A3F-0CF2FEB07CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351C0183-15F3-4968-8A3F-0CF2FEB07CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351C0183-15F3-4968-8A3F-0CF2FEB07CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7C80EF-E506-494F-8811-4A8B57C8B301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7C80EF-E506-494F-8811-4A8B57C8B301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7C80EF-E506-494F-8811-4A8B57C8B301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7C80EF-E506-494F-8811-4A8B57C8B301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4320BC00-E493-428F-9113-BE1740AFF966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4320BC00-E493-428F-9113-BE1740AFF966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4320BC00-E493-428F-9113-BE1740AFF966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4320BC00-E493-428F-9113-BE1740AFF966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31ADDF51-ABAD-4A81-8AFD-F2F6B0953DE1} = {739E907E-A48E-46DD-AD46-E4D85E283BFF}
+		{1A4F0CE2-E309-4653-B1CE-0327BA319919} = {CACC209B-B4F2-406E-8E52-934DA832A6A6}
+		{351C0183-15F3-4968-8A3F-0CF2FEB07CB8} = {1C29A21E-22F2-4AFB-9FDE-8DEA9DAC51EF}
+		{34FB5815-ECA4-4175-9C54-A3A4DFEEE6B8} = {20838E52-1DB7-4ECF-8A8B-163729182E06}
+		{EBE72FE1-11D5-4BDC-8D52-D17F16E7C687} = {3EB1A163-E4B2-47CB-B2DD-434619986BF1}
+		{52A2E486-1D74-4484-82E9-E17EE27E19A0} = {3EB1A163-E4B2-47CB-B2DD-434619986BF1}
+		{1F7C80EF-E506-494F-8811-4A8B57C8B301} = {1C29A21E-22F2-4AFB-9FDE-8DEA9DAC51EF}
+		{51F8F924-576A-44C9-87CA-8917D4B8B156} = {3EB1A163-E4B2-47CB-B2DD-434619986BF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C9F701F-F4F8-47AE-AFC3-113486B2944A}
+	EndGlobalSection
+EndGlobal
